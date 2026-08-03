@@ -1,0 +1,1461 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+section {
+    margin-bottom: 8px;
+}
+
+#home{
+    margin-bottom:3px;
+}
+
+.navbar {
+    width: 100%;
+    height: 76px;
+    background-color: #EB8704;
+    display: flex;
+    align-items: center;
+}
+
+.navbar img {
+    width: 78px;
+    height: 51.3px;
+    margin-left: 66px;
+    opacity: 1;
+}
+
+.searchbar {
+    width: 305px;
+    height: 31px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 0 66px;
+}
+
+.mainbox {
+    display: flex;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+    list-style: none;
+}
+
+.list a {
+    position: relative;
+    text-decoration: none;
+    font-family: Tiro Bangla;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0;
+    text-align: center;
+    color: #000000;
+}
+
+.icon .addtocard{
+    font-size: 25px;
+    padding-left: 150px;
+}
+
+.loginbutton button {
+    width: 142px;
+    height: 31px;
+    border-radius: 10px;
+    border: none;
+    font-family: Tiro Bangla;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.navbar h2 {
+    font-family: Krona One, system-ui, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+        "Helvetica Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.navbar .smalldiv {
+    width: 70px;
+    height: 11px;
+    border-radius: 15px;
+    padding-top: 3px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    opacity: 1;
+
+    font-family: "Krona One", system-ui, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+        "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6px;
+    line-height: 100%;
+    letter-spacing: 0;
+    text-align: center;
+
+    background: #6D3501;
+    color: white;
+    position: absolute;
+    margin: 10px 0;
+    left: 70px;
+    top: 40px;
+}
+
+.navbar .logodiv {
+    position: relative;
+}
+
+.searchbar i {
+    width: 15px;
+    height: 15px;
+    padding: 4px 4px;
+    color: white;
+}
+
+section .homepage {
+    width: 100%;
+}
+
+.homepage img {
+    width: 100%;
+    height: 640px;
+}
+
+.section1 img {
+    width: 100%;
+    height: 476px;
+}
+
+.section1 h2 {
+    font-family: "Tiro Devanagari Sanskrit", "Sanskrit Text", Georgia, Garamond, serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    color: #6D3501;
+    position: relative;
+    top: 50px;
+}
+
+.section1 {
+    background: #b7ccab;
+    background-image: url("./backgroundimagesamllsize.png");
+    background-size: 1000px;
+    height: 476px;
+}
+
+.section1 {
+    width: 100%;
+    padding: 0px 0;
+}
+
+.section1 .container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.section1 .box {
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 70px auto;
+}
+
+.section1 .box img {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.section1 .box h3 {
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+.tomato{
+ 
+padding-top: 43px;
+padding-left: 21px;
+
+}
+
+.veg{
+    width: 238px;
+height: 185px;
+
+margin-top: 40px;
+padding-left: 10px;
+
+}
+.carrot{
+    width: 248px;
+height: 154px;
+margin-top: 70px;
+padding-left: 2px;
+
+}
+
+.brinjal{
+    width: 238px;
+height:185px;
+margin-top: 40px;
+padding-left: 13px;
+
+}
+
+.chilli{
+margin-top: 50px;
+padding-left: 11px;
+
+}
+
+.onion{
+    width:238px;
+height: 170px;
+margin-top: 50px;
+padding-left: 15px;
+
+}
+.beans{
+    width:250px;
+height:175px;
+margin-top: 50px;
+padding-left: 10px;
+
+}
+.ladies{
+    width: 241px;
+height: 175px;
+margin-top: 50px;
+padding-left: 9px;
+
+}
+
+.section1 .box img {
+    width: 100%;
+    height: 100%;
+}
+
+.section1 .container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.product {
+    width: 100%;
+    height: 1608px;
+    background: #FFF5E9;
+    background-image: url("./backgroundimagenig.png");
+    background-size: 2000px;
+}
+
+.product .border {
+    width: 93%;
+    height: 1184px;
+    margin: 53px auto;
+}
+
+.content {
+    text-align: center;
+}
+
+.content h3 {
+    padding-top: 50px;
+    color: #F27F13;
+    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+        "Helvetica Neue", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.content h1 {
+    color: #6D3501;
+    font-family: "Tiro Devanagari Sanskrit", "Sanskrit Text", Georgia, Garamond, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.content p {
+    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+        "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #000000;
+}
+
+.card .carditem {
+    width: 290px;
+    height: 573px;
+    border-radius: 15px;
+    border: 2px solid #F27F13;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: white;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.vector{
+    width: 16.00179100036621px;
+height: 16.01832389831543px;
+margin-right: 2px;
+
+}
+
+.vector3{
+    padding-left: 150px;
+}
+
+.card .vegimg {
+    width: 253px;
+    height: 236px;
+    gap: 10px;
+    opacity: 1;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border: 1px solid #EB8704;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+.vegimg span{
+    padding:px 0;
+}
+
+.vegimg h3{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-weight: 400;
+font-style: Bold;
+font-size: 24px;
+line-height: 100%;
+padding-top: 10px;
+
+}
+.vegimg p{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.card .h2content {
+    width: 253px;
+    height: 240px;
+    margin: auto;
+    position: relative;
+}
+.offer{
+    position: absolute;
+    width: 109px;
+height: 30px;
+border-top-left-radius: 9px;
+background-color: #EB8704;
+color: white;
+font-size: 20px;
+margin-top: -1px;
+text-align: center;
+padding-top: 3px;
+}
+.stash{
+    position: absolute;
+    padding-left: 115px;
+}
+
+.card h2 {
+    text-align: right;
+}
+
+.card .weight {
+    width: 253px;
+    height: 36px;
+    border-radius: 5px;
+    border-width: 1px;
+    gap: 10px;
+    padding-top: 7px;
+    padding-right: 22px;
+    padding-bottom: 7px;
+    padding-left: 22px;
+    border: 1px solid #6D3501;
+    margin: 15px 0px 10px 0 ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.buynow {
+    width: 253px;
+    height: 43px;
+    border-radius: 10px;
+    gap: 10px;
+    margin-top: 80px;
+    padding-top: 1px;
+    padding-right: 11px;
+    padding-bottom: 1px;
+    padding-left: 11px;
+    font-size: 32px;
+    color: white;
+    background-color: #6D3501;
+    border: none;
+
+}
+
+.section2 .network {
+    width: 100%;
+    height: 328px;
+    background-color: #F5F5F5;
+    display: flex;
+    position: relative;
+}
+
+.network .register{
+width: 241px;
+height: 32px;
+border-radius: 12px;
+padding-top: 5px;
+padding-right: 24px;
+padding-bottom: 5px;
+padding-left: 24px;
+background-color: #EB8704;
+color: white;
+margin:10px;
+
+
+
+
+}
+.section2 .network .logo{
+    width: 205px;
+height: 135.08277893066406px;
+margin:68px 65px;
+}
+
+.network .former{
+    margin:68px 0px;
+
+}
+
+
+.network .formerimg{
+    width: 530px;
+height: 340px;
+
+}
+
+.network .former h2{
+    font-family: Tiro Devanagari Sanskrit;
+font-weight: 400;
+font-style: Regular;
+font-size: 40px;
+line-height: 100%;
+letter-spacing: 0%;
+padding: 10px;
+color:#6D3501;
+
+}
+
+.network .former p{
+    font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 21px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+text-align: left;
+padding: 10px;
+
+}
+
+.network .manvasam{
+    width: 192px;
+height: 27px;
+background-color:#EB8704;
+color: white;
+border-radius: 15px;
+padding-top: 3px;
+padding-right: 5px;
+padding-bottom: 3px;
+padding-left: 5px;
+text-align: center;
+margin: 200px 600px 0px ;
+position: absolute;
+
+}
+
+.explore-more h1 .icon{
+position: absolute;
+padding-left: 5px;
+padding-top: 6px;
+
+}
+
+.explore-more h1{
+    text-align: center;
+}
+.line{
+    width: 90px;
+height: 0px;
+border:2px solid black;
+margin: 2px auto;
+
+
+}
+.story{
+    width:100%;
+    height:1349px;
+    background-color: #F1FFE6;
+
+}
+.story h2{
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+font-weight: 400;
+font-style: Regular;
+font-size: 40px;
+line-height: 100%;
+
+}
+
+.story .row1{
+    display:flex;
+    
+}
+
+.row1 .box{
+    width:45%;
+    height: 405px;
+    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.row1 .best{
+    text-align: center;
+    padding-top: 150px;
+    font-family: Young Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-weight: 400;
+font-style: Regular;
+font-size: 35px;
+line-height: 100%;
+letter-spacing: 5%;
+color: #6D3501;
+
+
+}
+
+.box .former{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+
+}
+
+.box p{
+    font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 27px;
+line-height: 39px;
+letter-spacing: 4%;
+align-items: center;
+margin-top:50px
+
+}
+.vision{
+    width:90%;
+    display:flex;
+    gap:30px;
+    margin: auto;
+}
+
+.box{
+    flex:1;
+    display:flex;
+    align-items:center;
+    gap:25px;
+
+    padding:40px;
+
+    background:#f7f7f7;
+    box-sizing:border-box;
+}
+
+.icon{
+    width:70px;
+    height:70px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:55px;
+    color:#7a3e00;
+
+    flex-shrink:0;
+}
+
+.content h2{
+    margin:0 0 12px;
+    color:#7a3e00;
+    font-size:42px;
+    font-weight:700;
+}
+
+.content p{
+    margin:0;
+    font-size:24px;
+    line-height:1.6;
+    color:#222;
+}
+.best{
+    padding-bottom: 130px ;
+    align-items: center;
+}
+
+
+.video-banner{
+    width:100%;
+    height:500px;
+    position:relative;
+    overflow:hidden;
+}
+
+.banner-img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+}
+
+.overlay{
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.35);
+}
+
+.banner-content{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+    color:#fff;
+    width:80%;
+}
+
+.banner-content h1{
+    font-size:60px;
+    font-weight:700;
+    margin-bottom:20px;
+    text-shadow:2px 2px 6px rgba(0,0,0,.6);
+}
+
+.banner-content p{
+    font-size:24px;
+    line-height:1.6;
+    margin-bottom:35px;
+    text-shadow:1px 1px 4px rgba(0,0,0,.6);
+}
+
+.shop-btn{
+    display:inline-flex;
+    align-items:center;
+    gap:18px;
+    padding:15px 35px;
+    background:#f89b08;
+    color:#fff;
+    text-decoration:none;
+    border-radius:40px;
+    font-size:22px;
+    font-weight:700;
+    transition:.3s;
+}
+
+.shop-btn:hover{
+    background:#e08700;
+}
+
+.shop-btn span{
+    font-size:18px;
+}
+
+.choose-us{
+    width:100%;
+    background:#FFF7EE;
+    padding:80px 8%;
+    text-align:center;
+    box-sizing:border-box;
+}
+
+.sub-title{
+    color:#F57C00;
+    font-size:24px;
+    font-weight:700;
+    text-transform:uppercase;
+    margin-bottom:10px;
+}
+
+.title{
+    color:#7A3E00;
+    font-size:60px;
+    font-family:Georgia, serif;
+    margin-bottom:60px;
+}
+
+.choose-container{
+    display:flex;
+    justify-content:space-between;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.choose-box{
+    flex:1;
+    min-width:250px;
+    background:#F4F4F4;
+    border-radius:25px;
+    padding:40px 25px;
+    text-align:center;
+    transition:.3s;
+}
+.choose-box img{
+    width:110px;
+    height:110px;
+    object-fit:contain;
+    margin-bottom:25px;
+}
+
+.choose-box h3{
+    color:#7A3E00;
+    font-size:24px;
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+.choose-box p{
+    font-size:18px;
+    color:#222;
+    line-height:1.5;
+}
+
+.gallery-section{
+    width:100%;
+    padding:80px 8%;
+    background:#F3FFE7;
+    text-align:center;
+    box-sizing:border-box;
+}
+
+.sub-title{
+    color:#F57C00;
+    font-size:28px;
+    font-weight:700;
+    text-transform:uppercase;
+    margin-bottom:10px;
+}
+
+.title{
+    color:#7A3E00;
+    font-size:54px;
+    font-family:Georgia, serif;
+    margin-bottom:50px;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:35px;
+}
+
+.gallery-item{
+    border-radius:25px;
+}
+
+.gallery-item img{
+    width:100%;
+    height:260px;
+    display:block;
+}
+
+.work-section{
+    width:100%;
+    padding:80px 8%;
+    background:#FFF8F0;
+    text-align:center;
+    box-sizing:border-box;
+}
+
+.work-title{
+    font-size:54px;
+    color:#7A3E00;
+    font-family:Georgia, serif;
+    margin-bottom:60px;
+}
+
+.work-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:20px;
+}
+
+.work-box{
+    flex:1;
+    text-align:center;
+}
+
+.work-box img{
+    width:160px;
+    height:160px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-bottom:25px;
+}
+
+.work-box h3{
+    font-size:34px;
+    color:#7A3E00;
+    margin-bottom:15px;
+    font-weight:700;
+}
+
+.work-box p{
+    font-size:22px;
+    color:#222;
+    line-height:1.5;
+}
+
+.arrow{
+    font-size:70px;
+    color:#7A3E00;
+    margin-top:50px;
+}
+
+.contact-section{
+    width:100%;
+    padding:80px 8%;
+    background:#F3FFE7;
+    box-sizing:border-box;
+}
+
+.contact-subtitle{
+    text-align:center;
+    color:#F57C00;
+    font-size:22px;
+    font-weight:700;
+    text-transform:uppercase;
+    margin-bottom:10px;
+}
+
+.contact-title{
+    text-align:center;
+    color:#7A3E00;
+    font-size:54px;
+    font-family:Georgia, serif;
+    margin-bottom:50px;
+}
+
+.contact-container{
+    display:flex;
+    gap:40px;
+    align-items:center;
+}
+
+.contact-image,
+.contact-form{
+    flex:1;
+}
+
+.contact-image img{
+    width:100%;
+    height:500px;
+    display:block;
+    border-radius:8px;
+}
+
+.contact-form{
+    background:#fff;
+    border-radius:25px;
+    padding:40px;
+    box-sizing:border-box;
+}
+
+.contact-form label{
+    display:block;
+    font-size:20px;
+    margin-bottom:10px;
+    color:#222;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width:100%;
+    padding:14px;
+    margin-bottom:20px;
+    border:1px solid #555;
+    border-radius:10px;
+    font-size:18px;
+    outline:none;
+    box-sizing:border-box;
+}
+
+.contact-form textarea{
+    resize:none;
+    height:110px;
+}
+
+.contact-form button{
+    width:100%;
+    padding:16px;
+    border:none;
+    border-radius:10px;
+    background:#F79400;
+    color:#fff;
+    font-size:20px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.footer{
+    width:100%;
+    background:#7A3E00;
+    color:#fff;
+    padding:60px 8% 20px;
+    box-sizing:border-box;
+}
+
+.footer-container{
+    display:flex;
+    justify-content:space-between;
+    gap:50px;
+    flex-wrap:wrap;
+}
+
+.footer-box{
+    flex:1;
+    min-width:180px;
+}
+
+.logo-box{
+    flex:2;
+}
+
+.logo-box img{
+    width:60px;
+    vertical-align:middle;
+}
+
+.logo-box h3{
+    display:inline-block;
+    margin-left:10px;
+    font-size:32px;
+    vertical-align:middle;
+}
+
+.logo-box p{
+    margin-top:20px;
+    line-height:1.7;
+    max-width:350px;
+    color:#f5f5f5;
+}
+
+.footer-box h4{
+    font-size:22px;
+    margin-bottom:20px;
+}
+
+.footer-box ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.footer-box ul li{
+    margin-bottom:12px;
+}
+
+.footer-box ul li a{
+    color:#fff;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.footer-box ul li a:hover{
+    color:#ffd27f;
+}
+
+.contact-info li{
+    line-height:1.8;
+}
+
+.footer hr{
+    border:none;
+    border-top:1px solid rgba(255,255,255,.3);
+    margin:40px 0 20px;
+}
+
+.copyright{
+    text-align:center;
+    font-size:15px;
+    color:#eee;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.slider{
+    width:100%;
+    height:600px;
+    overflow:hidden;
+}
+
+.slides{
+    display:flex;
+    width:100%;
+    height:100%;
+    animation:carousel 12s infinite;
+}
+
+.slide{
+    width:100%;
+    flex-shrink:0;
+}
+
+.slide img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+}
+
+@keyframes carousel{
+
+    0%,25%{
+        transform:translateX(0);
+    }
+
+    33%,58%{
+        transform:translateX(-100%);
+    }
+
+    66%,91%{
+        transform:translateX(-200%);
+    }
+
+    100%{
+        transform:translateX(0);
+    }
+}
+
+/* 
+ * ==========================================================================
+ * RESPONSIVE MEDIA QUERIES (MOBILE, TABLET, DESKTOP)
+ * ==========================================================================
+ * Add these to the end of your CSS file to fix the layout on all devices.
+ */
+
+/* --- 1. TABLET OVERRIDES (Screens smaller than 1024px) --- */
+@media (max-width: 1024px) {
+    .navbar {
+        height: auto;
+        padding: 10px 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .navbar img {
+        margin-left: 0;
+    }
+
+    .navbar h2 {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .mainbox {
+        width: 100%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .searchbar {
+        margin: 0;
+        width: 250px;
+    }
+
+    .list {
+        gap: 15px;
+    }
+
+    .icon .addtocard {
+        padding-left: 0;
+    }
+
+    .loginbutton button {
+        margin-left: 0;
+    }
+
+    .product {
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .product .border {
+        height: auto;
+    }
+
+    .card {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
+        gap: 20px;
+    }
+
+    .story {
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .vision {
+        flex-direction: column;
+    }
+
+    .section2 .network {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+
+    .network .formerimg {
+        width: 100%;
+        height: auto;
+    }
+
+    .network .former {
+        margin: 20px 0;
+    }
+
+    .network .manvasam {
+        position: relative;
+        margin: 10px auto;
+    }
+}
+
+/* --- 2. MOBILE OVERRIDES (Screens smaller than 768px) --- */
+@media (max-width: 768px) {
+    .navbar .smalldiv {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 50px;
+    }
+
+    .list {
+        width: 100%;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .list a {
+        font-size: 16px;
+    }
+
+    .section1 {
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .section1 .container {
+        grid-template-columns: repeat(2, 1fr); /* 2 items per row on mobile */
+        padding: 20px;
+    }
+
+    .section1 .box {
+        margin: 20px auto;
+    }
+
+    .content h1 {
+        font-size: 30px;
+    }
+
+    .content p {
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+
+    .card {
+        grid-template-columns: 1fr; /* 1 column for mobile */
+    }
+
+    .card .carditem {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .work-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .arrow {
+        transform: rotate(90deg);
+        margin: 20px 0;
+    }
+
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact-image img {
+        height: 300px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo-box {
+        flex: 1;
+    }
+
+    .logo-box p {
+        max-width: 100%;
+    }
+}
+
+/* --- 3. SMALL MOBILE OVERRIDES (Screens smaller than 480px) --- */
+@media (max-width: 480px) {
+    .section1 .container {
+        grid-template-columns: 1fr; /* 1 item per row */
+    }
+
+    .banner-content h1 {
+        font-size: 30px;
+    }
+
+    .banner-content p {
+        font-size: 16px;
+    }
+
+    .loginbutton button {
+        width: 100%;
+    }
+
+    .searchbar {
+        width: 100%;
+    }
+}
+
+
+/* 
+ * ==========================================================================
+ * IMPROVED "OUR STORY" SECTION MEDIA QUERIES
+ * ==========================================================================
+ * Add these overrides to the end of your CSS file, specifically within 
+ * or after your existing mobile media query (e.g., @media (max-width: 768px)).
+ */
+
+@media (max-width: 768px) {
+    .story .row1 {
+        flex-direction: column; /* Stack items vertically */
+        gap: 20px; /* Add space between stacked boxes */
+        margin-bottom: 30px;
+    }
+
+    .story .box {
+        width: 100%; /* Make boxes take full width */
+        min-width: unset; /* Remove min-width constraint */
+        margin: 0 auto; /* Center the boxes */
+    }
+
+    .story .best {
+        padding: 20px; /* Adjust padding for better appearance */
+        font-size: 24px; /* Smaller font size for mobile */
+        line-height: 1.4;
+    }
+
+    .story .box p {
+        font-size: 18px; /* Adjust paragraph font size */
+        line-height: 1.5;
+        margin-top: 20px;
+    }
+
+    .vision {
+        flex-direction: column; /* Stack vision boxes vertically */
+        gap: 20px;
+    }
+
+    .vision .box {
+        flex-direction: column; /* Stack icon and content vertically within vision box */
+        text-align: center;
+        padding: 20px;
+    }
+
+    .vision .icon {
+        margin-bottom: 10px;
+    }
+
+    .vision .content h2 {
+        font-size: 28px;
+    }
+
+    .vision .content p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .story .best {
+        font-size: 20px;
+    }
+
+    .story .box p {
+        font-size: 16px;
+    }
+}
+
+/* 
+ * ==========================================================================
+ * IMPROVED MOBILE HEADER MEDIA QUERIES
+ * ==========================================================================
+ * Add these overrides to the end of your CSS file, specifically within 
+ * or after your existing mobile media query (e.g., @media (max-width: 768px)).
+ */
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Stack items vertically */
+        padding: 15px 10px; /* Reduce overall padding */
+        height: auto; /* Allow height to adjust based on content */
+        align-items: center; /* Center items horizontally */
+        justify-content: center; /* Center items horizontally */
+        gap: 10px; /* Add gap between stacked items */
+    }
+
+    .logodiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px; /* Space below logo */
+    }
+
+    .navbar img {
+        width: 50px; /* Smaller logo */
+        height: auto;
+        margin-left: 0;
+    }
+.navbar .smalldiv{
+    position: absolute;
+    left: 50%;
+     transform: translateX(-50%); 
+    top: 33px;
+    margin: 0;
+    font-size: 6px;
+}
+
+    .navbar h2 {
+        display: none; /* Hide the main title on small screens to reduce clutter */
+    }
+
+    .mainbox {
+        flex-direction: column; /* Stack mainbox items vertically */
+        width: 100%; /* Take full width */
+        gap: 10px; /* Space between search, list, icons, login */
+        align-items: center;
+    }
+
+    .searchbar {
+        width: 90%; /* Make search bar wider */
+        margin: 0;
+        height: 30px;
+    }
+
+    .list {
+        width: 100%;
+        justify-content: center; /* Center navigation links */
+        flex-wrap: wrap; /* Allow links to wrap */
+        gap: 10px;
+        margin-top: 5px;
+    }
+
+    .list a {
+        font-size: 14px; /* Smaller font for links */
+    }
+
+    .icon .addtocard {
+        font-size: 20px; /* Smaller cart icon */
+        padding-left: 0;
+    }
+
+    .loginbutton {
+        width: 90%; /* Make login button wider */
+    }
+
+    .loginbutton button {
+        width: 100%; /* Full width button */
+        margin: 0;
+        padding: 8px 15px;
+        font-size: 16px;
+    }
+}
+
+/* Further adjustments for very small screens if needed */
+@media (max-width: 480px) {
+    .list {
+        flex-direction: column; /* Stack nav links vertically on very small screens */
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+
+
+
